@@ -1,5 +1,5 @@
 import React from "react";
-import './styles.css';
+import "./styles.css";
 
 const list = [
   {
@@ -34,8 +34,8 @@ export function List() {
       <div className="container px-4">
         <div className="row">
           {list.map((list, index) => (
-            <a href={list.link} target="_blank" className="nav-link">
-              <div className="col-12 col-lg-5 mx-auto mb-2" key={index}>
+            <div className="col-12 col-lg-5 mx-auto mb-2 p-0" key={index}>
+              <a href={list.link} target="_blank" className="nav-link">
                 <div className="card">
                   <div className="card-body">
                     <div className="d-flex align-items-center justify-content-start">
@@ -54,8 +54,8 @@ export function List() {
                     </div>
                   </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           ))}
           ;
         </div>
