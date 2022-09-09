@@ -1,11 +1,15 @@
 # shared
 
 Projeto de árvore de links, usando o linktree como inspiração. <br>
-Primeiro projeto feito sem ajuda de terceiros ou de vídeo-aulas.
+Primeiro projeto feito em reactJS sem ajuda de terceiros ou de vídeo-aulas.
 
-# Publicado na vercel
+# Objetivo
+Criar um gerador de links personalizados para compartilhamento nas redes sociais.
+
+# Vercel
 https://shared-reqquia.vercel.app/ <br>
-Domínio personalizado <br>
+
+# Domínio Personalizado
 https://share.reqquia.com.br/
 
 # Ferramentas
