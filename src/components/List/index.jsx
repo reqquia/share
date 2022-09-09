@@ -1,4 +1,5 @@
 import React from "react";
+import './styles.css';
 
 const list = [
   {
@@ -34,21 +35,21 @@ export function List() {
         <div className="row">
           {list.map((list, index) => (
             <a href={list.link} target="_blank" className="nav-link">
-              <div className="col-12 mb-2" key={index}>
+              <div className="col-12 col-lg-5 mx-auto mb-2" key={index}>
                 <div className="card">
                   <div className="card-body">
                     <div className="d-flex align-items-center justify-content-start">
                       <div className="p-2">
                         <img
-                          className="img-fluid"
+                          className="img-fluid card shadow-sm p-2"
                           width={50}
                           src={list.logo}
                           alt={list.name}
                         />
                       </div>
                       <div className="pt-3">
-                        <h2 className="card-title fw-bold">{list.name}</h2>
-                        <p className="text-muted">{list.sub}</p>
+                        <h2 className="card-title mb-0 fw-bold">{list.name}</h2>
+                        <p className="card-text">{list.sub}</p>
                       </div>
                     </div>
                   </div>
