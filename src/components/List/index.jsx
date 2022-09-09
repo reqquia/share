@@ -35,7 +35,7 @@ export function List() {
         <div className="row">
           {list.map((list, index) => (
             <div className="col-12 col-lg-5 mx-auto mb-2 p-0" key={index}>
-              <a href={list.link} target="_blank" className="nav-link">
+              <a href={list.link} target="_blank" className="stretched-link nav-link">
                 <div className="card">
                   <div className="card-body">
                     <div className="d-flex align-items-center justify-content-start">
