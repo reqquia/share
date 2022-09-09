@@ -31,10 +31,10 @@ const list = [
 export function List() {
   return (
     <>
-      <div className="container px-4">
+      <div className="container col-lg-4 mx-auto">
         <div className="row">
           {list.map((list, index) => (
-            <div className="col-12 col-lg-5 mx-auto mb-2 p-0" key={index}>
+            <div className="col-12 mb-3 p-0" key={index}>
               <a href={list.link} target="_blank" className="stretched-link nav-link">
                 <div className="card">
                   <div className="card-body">
