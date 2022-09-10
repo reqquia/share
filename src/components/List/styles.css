@@ -1,3 +1,31 @@
-.card:hover  {
-    color: #2d7abe;
+.myLink {
+    text-decoration: none;
+}
+
+.bibi {
+    font-size: 50px;
+}
+
+.bi-facebook {
+    color: #3b5998;
+}
+
+.bi-twitter {
+    color: #00ACEE;
+}
+
+.bi-github {
+    color: #151515;
+}
+
+.bi-telegram {
+    color: #30a3e6;
+}
+
+.bi-whatsapp {
+    color: #25D366;
+}
+
+.bi-browser-chrome {
+    color: #e70000
 }
