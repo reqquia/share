@@ -14,5 +14,5 @@ https://shared-reqquia.vercel.app/ <br>
 https://share.reqquia.com.br/
 
 # Ferramentas
-- React JS
+- React JS + VITE JS
 - Bootstrap 5
