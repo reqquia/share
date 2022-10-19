@@ -43,7 +43,7 @@ const database = [
 export function List() {
   return (
     <>
-      <div className="container mt-4 mb-4 p-md-0">
+      <div className="container col-12 col-lg-6 mx-auto mt-4 mb-4 p-md-0">
         <ul className="list-group">
           {database.map((list, index) => (
             <a href={list.Link} className="myLink" key={index}>

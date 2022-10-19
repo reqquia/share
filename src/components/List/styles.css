@@ -29,3 +29,16 @@
 .bi-browser-chrome {
     color: #e70000
 }
+
+.list-group-item:hover {
+    background-color: #212529;
+    color: white;
+}
+
+.list-group-item:hover a {
+    color: white;
+}
+
+.list-group-item:hover i {
+    color: white;
+}
