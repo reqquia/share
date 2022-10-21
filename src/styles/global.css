@@ -23,3 +23,15 @@
     --bs-btn-disabled-bg: #21252925;
     --bs-btn-disabled-border-color: #21252925;
 }
+
+.btn-purple {
+    background-color: #29004d;
+    border-color: #29004d;
+    color: white;
+}
+
+.btn-purple:hover {
+    background-color: #19052b;
+    border-color: #19052b;
+    color: white;
+}
