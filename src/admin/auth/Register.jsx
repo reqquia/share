@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./styles.css";
 
-export function Reset() {
+export function Register() {
   return (
     <>
       <div className="container-fluid">
@@ -38,30 +38,43 @@ export function Reset() {
               </Link>
             </div>
           </div>
-          <div className="col-12 col-lg-6 pt-5">
-            <div className="card border-0 shadow-sm pb-5">
+          <div className="col-12 col-lg-6 pt-3">
+            <div className="card border-0 shadow-sm">
               <div className="card-body">
-                <div className="text-center dd-block d-lg-none">
+                <div className="text-center d-block d-lg-none pt-5">
                   <img className="logo" src="/logo.png" alt="logo" />
                 </div>
+                <h1 className="display-6 text-center mt-3 fw-bold">
+                  Registre-se é gratuito!
+                </h1>
                 <form>
-                  <h1 className="col-12 col-lg-8 text-center mx-auto mt-3 fw-bold display-5 pt-md-5">
-                    Recuperar Senha
-                  </h1>
-                  <p className="col-12 col-lg-8 text-center mx-auto mt-3">
-                    Você receberá um email com o link para recuperar sua senha,
-                    informe o email cadastrado ao fazer sua conta e aguarde a
-                    confirmação.
-                  </p>
+                  <div className="col-12 col-lg-8 mx-auto form-floating mt-3 mb-3">
+                    <input
+                      type="text"
+                      className="form-control"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                      autoFocus
+                    />
+                    <label htmlFor="floatingInput">Nome e Sobrenome</label>
+                  </div>
                   <div className="col-12 col-lg-8 mx-auto form-floating mt-3 mb-3">
                     <input
                       type="email"
                       className="form-control"
                       id="floatingInput"
                       placeholder="name@example.com"
-                      autoFocus
                     />
-                    <label htmlFor="floatingInput">Informe seu email</label>
+                    <label htmlFor="floatingInput">Email</label>
+                  </div>
+                  <div className="col-12 col-lg-8 mx-auto form-floating mt-3 mb-3">
+                    <input
+                      type="password"
+                      className="form-control"
+                      id="floatingPassword"
+                      placeholder="Password"
+                    />
+                    <label htmlFor="floatingPassword">Senha</label>
                   </div>
 
                   <div className="d-grid">
@@ -69,12 +82,31 @@ export function Reset() {
                       className="col-12 col-lg-8 mx-auto p-3 btn-purple rounded btn-login text-uppercase fw-bold"
                       type="submit"
                     >
-                      Receber E-mail
+                      Criar minha conta
                     </button>
+                  </div>
+                  <hr className="my-4" />
+
+                  <div className="d-grid mb-2 text-center">
+                    <button
+                      className="btn btn-custom border btn-lg text-uppercase fw-bold col-12 col-lg-8 mx-auto mb-3"
+                      type="submit"
+                    >
+                      <i className="bi bi-google me-2"></i> logar com google
+                    </button>
+                    <div className="d-grid">
+                      <button
+                        className="btn btn-custom border border btn-lg text-uppercase fw-bold col-12 col-lg-8 mx-auto"
+                        type="submit"
+                      >
+                        <i className="bi bi-facebook text-dark me-2"></i> logar
+                        com Facebook
+                      </button>
+                    </div>
                   </div>
                   <div className="text-center mt-3">
                     <Link to="/login" className="linkResetPass">
-                      Voltar ao login?
+                      Tem uma conta? Faça o login.
                     </Link>
                   </div>
                 </form>
