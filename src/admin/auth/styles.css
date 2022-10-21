@@ -1,0 +1,38 @@
+.logo {
+    max-width: 250px;
+}
+
+.linkResetPass {
+    color: gray;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.bg-purple {
+    background-image: url("/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+.btn-purple {
+    background-color: #29004d;
+    border-color: #29004d;
+    color: white;
+}
+
+.btn-purple:hover {
+    background-color: #19052b;
+    border-color: #19052b;
+    color: white;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #29004d !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%) !important;
+}

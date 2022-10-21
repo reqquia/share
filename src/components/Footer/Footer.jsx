@@ -7,7 +7,10 @@ export function Footer() {
         <small className="text-white">
           2022 © ShareMyLinks - Todos os direitos reservados.{" "}
           <span className="footer-creator">
-            Desenvolvido por <a href="https://reqquia.com.br" target="_blank">Réqquia</a>
+            Desenvolvido por{" "}
+            <a href="https://reqquia.com.br" target="_blank">
+              Réqquia
+            </a>
           </span>
         </small>
       </footer>

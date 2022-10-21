@@ -18,3 +18,9 @@
     position: absolute;
     margin: -70px 0px;
 }
+
+.btn-guest {
+    position: absolute;
+    margin: -70px 0px;
+    right: 20px;
+}
