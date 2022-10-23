@@ -6,7 +6,8 @@ import { Reset } from "./admin/auth/Reset";
 import { AjudaContato } from "./components/Helper/AjudaContato";
 import { Termos } from "./components/Helper/Termos";
 import { Privacidade } from "./components/Helper/Privacidade";
-import { Register }  from "./admin/auth/Register";
+import { Register } from "./admin/auth/Register";
+import { Dash } from "./admin/dashboard/Dash";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -20,6 +21,7 @@ function App() {
       <Route path="/termos" element={<Termos />} />
       <Route path="/privacidade" element={<Privacidade />} />
       <Route path="/ajuda" element={<AjudaContato />} />
+      <Route path="/admin/dash" element={<Dash />} />
     </Routes>
   );
 }
