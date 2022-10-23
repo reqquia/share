@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ButtonSocial } from "./ButtonSocial";
+
 import "./styles.css";
 
 export function Register() {
@@ -44,9 +46,9 @@ export function Register() {
                 <div className="text-center d-block d-lg-none pt-5">
                   <img className="logo" src="/logo.png" alt="logo" />
                 </div>
-                <h1 className="display-6 text-center mt-3 fw-bold">
+                <h3 className="text-center mt-3 fw-bold">
                   Registre-se é gratuito!
-                </h1>
+                </h3>
                 <form>
                   <div className="col-12 col-lg-8 mx-auto form-floating mt-3 mb-3">
                     <input
@@ -79,7 +81,7 @@ export function Register() {
 
                   <div className="d-grid">
                     <button
-                      className="col-12 col-lg-8 mx-auto p-3 btn-purple rounded btn-login text-uppercase fw-bold"
+                      className="col-12 col-lg-8 mx-auto p-3 btn-purple rounded-pill btn-login text-uppercase fw-bold"
                       type="submit"
                     >
                       Criar minha conta
@@ -87,23 +89,8 @@ export function Register() {
                   </div>
                   <hr className="my-4" />
 
-                  <div className="d-grid mb-2 text-center">
-                    <button
-                      className="btn btn-custom border btn-lg text-uppercase fw-bold col-12 col-lg-8 mx-auto mb-3"
-                      type="submit"
-                    >
-                      <i className="bi bi-google me-2"></i> logar com google
-                    </button>
-                    <div className="d-grid">
-                      <button
-                        className="btn btn-custom border border btn-lg text-uppercase fw-bold col-12 col-lg-8 mx-auto"
-                        type="submit"
-                      >
-                        <i className="bi bi-facebook text-dark me-2"></i> logar
-                        com Facebook
-                      </button>
-                    </div>
-                  </div>
+                  <ButtonSocial />
+
                   <div className="text-center mt-3">
                     <Link to="/login" className="linkResetPass">
                       Tem uma conta? Faça o login.

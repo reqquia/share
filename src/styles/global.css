@@ -35,3 +35,8 @@
     border-color: #19052b;
     color: white;
 }
+
+a:hover {
+    color: #29004d !important;
+    text-decoration: none;
+}

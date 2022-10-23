@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ButtonSocial } from "./ButtonSocial";
+
 import "./styles.css";
 
 export function Login() {
@@ -44,9 +46,7 @@ export function Login() {
                 <div className="text-center d-block d-lg-none pt-5">
                   <img className="logo" src="/logo.png" alt="logo" />
                 </div>
-                <h1 className="display-6 text-center mt-3 fw-bold">
-                  Faça seu Login
-                </h1>
+                <h3 className="text-center mt-3 fw-bold">Faça seu Login</h3>
                 <form>
                   <div className="col-12 col-lg-8 mx-auto form-floating mt-3 mb-3">
                     <input
@@ -70,49 +70,36 @@ export function Login() {
 
                   <div className="d-grid">
                     <button
-                      className="col-12 col-lg-8 mx-auto p-3 btn-purple rounded btn-login text-uppercase fw-bold"
+                      className="col-12 col-lg-8 mx-auto p-3 btn-purple rounded-pill btn-login text-uppercase fw-bold"
                       type="submit"
                     >
                       Acessar
                     </button>
                   </div>
 
-                  <hr className="my-4" />
+                  <hr className="my-4 text-muted" />
 
-                  <h4 className="text-muted text-center mb-3">
+                  <h5 className="text-muted text-center mb-3">
                     Não tem uma conta ainda?
-                  </h4>
+                  </h5>
 
-                  <div className="d-grid mb-2 text-center">
+                  <div className="d-grid text-center">
                     <Link
                       to="/register"
                       className="text-decoration-none text-dark lead"
                     >
                       <button
-                        className="btn btn-custom border btn-lg text-uppercase fw-bold col-12 col-lg-8 mx-auto mb-2"
+                        className="btn btn-success border btn-lg text-uppercase rounded-pill 
+                        col-12 col-lg-8 mx-auto mb-2"
                         type="button"
                       >
+                        <i className="bi bi-person-plus shadow-sm p-2 text-white me-2"></i>
                         Criar minha conta
                       </button>
                     </Link>
-
-                    <button
-                      className="btn btn-custom border btn-lg text-uppercase fw-bold col-12 col-lg-8 mx-auto"
-                      type="submit"
-                    >
-                      <i className="bi bi-google me-2"></i> logar com google
-                    </button>
                   </div>
 
-                  <div className="d-grid">
-                    <button
-                      className="btn btn-custom border border btn-lg text-uppercase fw-bold col-12 col-lg-8 mx-auto"
-                      type="submit"
-                    >
-                      <i className="bi bi-facebook text-dark me-2"></i> logar
-                      com Facebook
-                    </button>
-                  </div>
+                  <ButtonSocial />
 
                   <div className="text-center mt-3">
                     <Link to="/resetar-senha" className="linkResetPass">
