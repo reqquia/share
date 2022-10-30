@@ -6,7 +6,7 @@ export function TopBar() {
       <nav className="navbar navbar-expand-lg bg-white shadow-sm">
         <div className="container">
           <a className="navbar-brand" href="#">
-            Navbar
+            LOGO
           </a>
           <button
             className="navbar-toggler"
@@ -48,7 +48,7 @@ export function TopBar() {
                 aria-expanded="false"
               >
                 <img
-                  className="rounded-circle me-3"
+                  className="rounded-circle me-2"
                   src="/profile.JPG"
                   alt="profile"
                 />
