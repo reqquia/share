@@ -1,0 +1,44 @@
+.myLink {
+    text-decoration: none;
+}
+
+.bibi {
+    font-size: 50px;
+}
+
+.bi-facebook {
+    color: #3b5998;
+}
+
+.bi-twitter {
+    color: #00ACEE;
+}
+
+.bi-github {
+    color: #151515;
+}
+
+.bi-telegram {
+    color: #30a3e6;
+}
+
+.bi-whatsapp {
+    color: #25D366;
+}
+
+.bi-browser-chrome {
+    color: #e70000
+}
+
+.list-group-item:hover {
+    background-color: #212529;
+    color: white;
+}
+
+.list-group-item:hover a {
+    color: white;
+}
+
+.list-group-item:hover i {
+    color: white;
+}
