@@ -1,16 +1,14 @@
-# SHARE
+# Árvore de Links
 
-<img src="https://reqquia.com.br/cdn/images/logo2.png" /> <br>
-Projeto de árvore de links, usando o linktree como inspiração. <br>
-Primeiro projeto feito em reactJS sem ajuda de terceiros ou de vídeo-aulas.
+Projeto de árvore de links, usando o linktree como inspiração. <br />
+Primeiro projeto feito em reactJS sem ajuda de terceiros ou de vídeo-aulas. <br />
+
+<img src="https://reqquia.com.br/cdn/images/t1.png" /> <br>
 
 # Objetivo
 Criar um gerador de links personalizados para compartilhamento nas redes sociais.
 
-# Vercel
-https://shared-reqquia.vercel.app/ <br>
-
-# Domínio Personalizado
+# Produção (vercel)
 https://share.reqquia.com.br/
 
 # Ferramentas
