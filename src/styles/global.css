@@ -35,9 +35,11 @@
     border-color: #19052b;
     color: white;
 }
-
+a {
+    color: #040505!important;
+}
 a:hover {
-    color: #29004d !important;
+    color: #040501 !important;
     text-decoration: none;
 }
 
