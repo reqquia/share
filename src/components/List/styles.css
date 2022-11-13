@@ -1,44 +1,50 @@
 .myLink {
-    text-decoration: none;
+  text-decoration: none;
+  color: #838383!important;
+}
+
+.myLink:hover {
+  text-decoration: none;
+  color: white!important;
 }
 
 .bibi {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .bi-facebook {
-    color: #3b5998;
+  color: #151515;
 }
 
 .bi-twitter {
-    color: #00ACEE;
+  color: #151515;
 }
 
 .bi-github {
-    color: #151515;
+  color: #151515;
 }
 
 .bi-telegram {
-    color: #30a3e6;
+  color: #151515;
 }
 
 .bi-whatsapp {
-    color: #25D366;
+  color: #151515;
 }
 
 .bi-browser-chrome {
-    color: #e70000
+  color: #151515;
 }
 
 .list-group-item:hover {
-    background-color: #212529;
-    color: white;
+  background-color: #212529;
+  color: white;
 }
 
 .list-group-item:hover a {
-    color: white;
+  color: white;
 }
 
 .list-group-item:hover i {
-    color: white;
+  color: white;
 }
