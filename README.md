@@ -14,3 +14,14 @@ https://share.reqquia.com.br/
 # Ferramentas
 - React JS + VITE JS
 - Bootstrap 5
+
+```bash
+  git clone https://github.com/reqquia/share
+  cd share
+  npm install
+  npm run dev
+```
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
