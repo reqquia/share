@@ -3,11 +3,11 @@ import React from "react";
 export function Footer() {
   return (
     <>
-      <footer className="footer container-fluid bg-dark text-white text-center p-2">
-        <small className="text-white">
-          2022 © ShareMyLinks - Todos os direitos reservados.{" "}
+      <footer className="footer container-fluid text-center p-2">
+        <small className="text-muted">
+          2022 © Todos os direitos reservados. &nbsp;
           <span className="footer-creator">
-            Desenvolvido por{" "}
+            Developed by &nbsp;
             <a href="https://reqquia.com.br" target="_blank">
               Réqquia
             </a>

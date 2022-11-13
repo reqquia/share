@@ -4,7 +4,7 @@ import "./styles.css";
 const database = [
   {
     Icon: "bi bi-browser-chrome bibi",
-    Title: "Website",
+    Title: "Site",
     Link: "https://reqquia.com.br",
     LinkShort: "reqquia.com.br",
   },
