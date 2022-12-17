@@ -1,7 +1,6 @@
 # Árvore de Links
 
 Projeto de árvore de links, usando o linktree como inspiração. <br />
-Primeiro projeto feito em reactJS sem ajuda de terceiros ou de vídeo-aulas. <br />
 
 <img src="https://reqquia.com.br/cdn/images/t1.png" /> <br>
 
